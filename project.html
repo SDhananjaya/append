@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini project</title>
+</head>
+<body>
+    <button onclick="add()">add Hello</button>
+    <p id="update"> </p>
+    
+
+    <script>
+       var text=document.getElementById("update");
+        
+        function add(){
+            
+          var listitem=document.createElement("h1");
+            listitem.innerHTML="Hello"
+            // append is create a eliment
+            text.append(listitem)
+        }
+
+
+
+
+    </script>
+</body>
+</html>
